@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חיות דאפשר לקנות</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>חנות החיות המגניבה בארץ!</h1>
+    <hr>
+    <div id="header">
+        <a href="index.html">דף הבית</a>
+        <a href="animals.html">חיות</a>
+        <a href="contact-us.html">צור קשר</a>
+    </div>
+    <h2>צור קשר:</h2>
+     <table id="contact">
+         <form action="save.html">
+         <tr>
+             <td><label for="f_name">שם פרטי:</label></td>
+             <td><input type="text" name="f_name" id="f_name"></td>
+         </tr>
+         <tr>
+            <td><label for="l_name">שם משפחה:</label></td>
+            <td><input type="text" name="l_name" id="l_name"></td>
+             
+         </tr>
+         <tr>
+             <td>מין:</td>
+             <td><input type="radio" name="gender" id="male"> <label for="male">זכר</label><br><input type="radio" name="gender" id="female"><label for="female">נקבה</label></td>
+         </tr>
+         <tr>
+             <td><label for="city">עיר:</label></td>
+             <td><select name="city" id="city">
+                 <option value="בחר עיר">בחר עיר</option> 
+                 <option value="אילת">אילת</option>
+                 <option value="חדרה">חדרה</option>
+                 <option value="חיפה">חיפה</option>
+                 <option value="ירושלים">ירושלים</option>
+                 <option value="תל אביב">תל אביב</option>
+        </select>
+        </td>
+         </tr>
+         <tr>
+             <td><label for="message">הודעה</label></td>
+             <td><textarea name="message" id="message" cols="30" rows="10" placeholder="כתוב הודעה"></textarea></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td><input type="submit" value="שלח" onclick="send()">
+                
+                <input type="reset" value="נקה">
+                
+            </td>
+         </tr>
+        </form>
+     </table>
+     <p id="copyrights">כל הזכויות שמורות &copy;</p>

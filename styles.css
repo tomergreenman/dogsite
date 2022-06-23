@@ -1,0 +1,44 @@
+body{
+    direction: rtl;
+    background-color: lightskyblue;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+hr{
+    border: 1pxs solid silver;
+}
+#header, #home_page_pic{
+    display: flex;
+    justify-content: center;
+        
+}
+a{
+    padding-left: 70px;
+    padding-right: 70px;
+    color: blue
+}
+p{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#copyrights{
+    text-align: center;
+}
+img{
+    width: 400px;
+}
+table img{
+    width: 180px;
+    height: 180px;
+}
+#animal_pics{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-top: 80px;
+}
+    
